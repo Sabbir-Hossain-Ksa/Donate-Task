@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/donation1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+.banner {
+  width: 826px;
+  height: 158px;
+  margin: 0 auto;
+  padding-top: 235px;
+  padding-bottom: 114px;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  width: 160px;
+  height: 56px;
+  background: #ff5959;
+  border-radius: 5px;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 0;
+}
