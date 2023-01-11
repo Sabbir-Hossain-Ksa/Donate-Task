@@ -200,7 +200,7 @@ body {
 
 #our-plan {
   width: 100vw;
-  height: 40vh;
+  margin-bottom: 100px;
 }
 
 #our-plan .plan-title {
@@ -269,4 +269,146 @@ body {
   background: #fff4d6;
   border-radius: 5px;
   padding: 15px;
+}
+
+#contribute {
+  width: 100vw;
+  margin-bottom: 50px;
+}
+
+#contribute .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 1050px;
+  margin: 50px auto;
+}
+
+#contribute .left-container {
+  width: 50%;
+  text-align: left;
+}
+
+#contribute .left-container h2 {
+  width: 492px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
+#contribute .left-container p {
+  width: 482px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 10px;
+}
+
+#contribute .left-container button {
+  width: 200px;
+  height: 49px;
+  background: #ff5959;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  border: 0;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+#contribute .img-container {
+  height: 355px;
+}
+
+#contribute .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#contribute-2 {
+  width: 100vw;
+  margin-bottom: 50px;
+}
+
+#contribute-2 .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 1050px;
+  margin: 50px auto;
+}
+
+#contribute-2 .img-container {
+  width: 456px;
+  height: 500px;
+}
+
+#contribute-2 .img-container img {
+  width: 508px;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#contribute-2 .text-container {
+  text-align: left;
+  width: 482px;
+  height: 287px;
+  padding-left: 20px;
+}
+
+#contribute-2 .text-container h2 {
+  width: 333px;
+  height: 108px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 54px;
+  color: #121212;
+}
+#contribute-2 .text-container p {
+  width: 482px;
+  height: 84px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  color: #707070;
+  margin: 23px 0;
+}
+
+#contribute-2 .btn {
+  text-align: right;
+}
+
+#contribute-2 .text-container button {
+  width: 200px;
+  height: 49px;
+  background: #ff5959;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  border: 0;
+  color: #ffffff;
 }
